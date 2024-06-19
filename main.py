@@ -41,7 +41,7 @@ def fetch_and_prepare_data(series_dict, col_name):
 
 # Streamlit interface
 # DBnomics logo
-st.image("C:\\Users\\nolan\\Downloads\\dbnomics_2.svg", width=300)
+st.image("dbnomics.svg", width=300)
 
 st.title(":bar_chart: Correlation Study between GDP Growth Rate and Trade Balance")
 
