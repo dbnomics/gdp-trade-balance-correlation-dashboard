@@ -45,7 +45,7 @@ def fetch_and_prepare_data(series_dict, col_name):
 # Change streamlit logo
 st.set_page_config(
         page_title="DBnomics Correlation Study between GDP Growth Rate and Trade Balance",
-        page_icon="DB_logo")
+        page_icon="Fav_icon.png")
 # DBnomics logo
 st.image("dbnomics.svg", width=300)
 
