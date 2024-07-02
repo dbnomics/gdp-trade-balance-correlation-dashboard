@@ -1,16 +1,13 @@
 [project]
-name = "my-project"
+name = "gdp-trade-balance-correlation"
 version = "0.1.0"
-description = "Add your description here"
-authors = [
-    { name = "Nolan", email = "nolan.clou@live.fr" }
-]
+description = "GDP - Trade balance correlation dashboard with DBnomics data"
+authors = [{ name = "Nolan Clou", email = "nolan.clou@live.fr" }]
 dependencies = [
+    "dbnomics>=1.2.5",
     "pandas>=2.2.2",
-    "ruff>=0.4.10",
     "plotly>=5.22.0",
     "statsmodels>=0.14.2",
-    "dbnomics>=1.2.5",
     "streamlit>=1.36.0",
 ]
 readme = "README.md"
@@ -22,7 +19,7 @@ build-backend = "hatchling.build"
 
 [tool.rye]
 managed = true
-dev-dependencies = ["ruff"]
+dev-dependencies = ["ruff>=0.5.0"]
 
 [tool.hatch.metadata]
 allow-direct-references = true
