@@ -119,6 +119,9 @@ statsmodels==0.14.2
     # via gdp-trade-balance-correlation
 streamlit==1.36.0
     # via gdp-trade-balance-correlation
+    # via streamlit-option-menu
+streamlit-option-menu==0.3.13
+    # via gdp-trade-balance-correlation
 tenacity==8.4.1
     # via dbnomics
     # via plotly
