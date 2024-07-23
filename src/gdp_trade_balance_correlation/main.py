@@ -333,16 +333,18 @@ def main() -> None:
 
     # Data sources
     if selected == "Sources":
-    st.subheader(":blue[Data]")
-    st.write(
-        "[GDP data](https://db.nomics.world/IMF/WEO:2024-04?tab=list)\n"
-        "\n"
-        "[Trade Balance data](https://db.nomics.world/CEPII/CHELEM-TRADE-INDIC?tab=list)\n"
-    )
-    st.markdown("---")
-    st.write(
-        "[DBnomics](https://db.nomics.world)\n"
-        "[Source Code](https://github.com/dbnomics/gdp-trade-balance-correlation-dashboard)"
-    )
+        st.subheader(":blue[Data]")
+        st.write(
+            "[GDP data](https://db.nomics.world/IMF/WEO:2024-04?tab=list)\n"
+            "\n"
+            "[Trade Balance data](https://db.nomics.world/CEPII/CHELEM-TRADE-INDIC?tab=list)\n"
+        )
+        st.markdown("---")
+        st.write(
+            "[DBnomics](https://db.nomics.world)\n"
+            "[Source Code](https://github.com/dbnomics/gdp-trade-balance-correlation-dashboard)"
+        )
+
+
 if __name__ == "__main__":
     main()
