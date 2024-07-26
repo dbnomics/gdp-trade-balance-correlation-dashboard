@@ -26,4 +26,4 @@ dev-dependencies = ["ruff>=0.5.0"]
 allow-direct-references = true
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/my_project"]
+packages = ["src/gdp_trade_balance_correlation"]
